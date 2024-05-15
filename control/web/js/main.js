@@ -10,7 +10,7 @@ let mensaje=document.getElementById("mensaje");
 
 function CallApi(estatus){
     // Hacer una petición para un usuario con ID especifico
-axios.get('http://3.17.173.168/iot-car-control/back-end/apis/setRegistro.php?valorEstatus='+estatus)
+axios.get('http://3.16.67.66/iot-car-control/back-end/apis/setRegistro.php?valorEstatus='+estatus)
 .then(function (response) {
   // manejar respuesta exitosa
   console.log(response);
