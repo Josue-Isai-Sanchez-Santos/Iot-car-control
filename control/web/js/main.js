@@ -5,6 +5,7 @@ let atras = document.getElementById("atras");
 let derecha = document.getElementById("derecha");
 let izquierda = document.getElementById("izquierda"); 
 let detener = document.getElementById("detener");
+let testeo = document.getElementById("testeo");
 
 let mensaje=document.getElementById("mensaje");
 
@@ -45,5 +46,11 @@ izquierda.addEventListener("click", function(){
 detener.addEventListener("click", function(){
 
   CallApi('S');
+
+});
+
+testeo.addEventListener("click", function(){
+
+  CallApi('T');
 
 });
